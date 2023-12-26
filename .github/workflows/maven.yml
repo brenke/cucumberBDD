@@ -27,4 +27,4 @@ jobs:
 
     steps:
     - name: Start autotests
-      run: mvn clean tests
+      run: mvn -f "pom.xml" clean tests
