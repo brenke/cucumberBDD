@@ -16,7 +16,6 @@ public class StandardPageSteps {
     private final ElementsCollection button = $$(byXpath(".//div[@class='sc-yfk21i-0 jeFZmS']"));
 
     private final SelenideElement catalog = $(byXpath(".//div[text()='Каталог']"));
-
     @Пусть("Открыта страница \\\"([^\\\"]*)\\\"$")
     public void pageIsOpen(String url){
         open(url);
